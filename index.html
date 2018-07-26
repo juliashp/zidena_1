@@ -1,0 +1,349 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #585858; min-height: 100%;">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Enables media queries -->
+  <meta name="viewport" content="width=device-width">
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+  <style>
+@media only screen and (max-width:610px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:610px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:610px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width:610px) {
+  table.body img {
+    height: auto !important;
+  }
+  table.body center {
+    min-width: 0 !important;
+  }
+  table.body .container {
+    width: 95% !important;
+  }
+  table.body .column,table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  table.body .collapse .column,table.body .collapse .columns,table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .body .column td.small-1,.body .column th.small-1,.body .columns td.small-1,.body .columns th.small-1,td.small-1,td.small-1 center,th.small-1,th.small-1 center {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  .body .column td.small-2,.body .column th.small-2,.body .columns td.small-2,.body .columns th.small-2,td.small-2,td.small-2 center,th.small-2,th.small-2 center {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  .body .column td.small-3,.body .column th.small-3,.body .columns td.small-3,.body .columns th.small-3,td.small-3,td.small-3 center,th.small-3,th.small-3 center {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  .body .column td.small-4,.body .column th.small-4,.body .columns td.small-4,.body .columns th.small-4,td.small-4,td.small-4 center,th.small-4,th.small-4 center {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  .body .column td.small-5,.body .column th.small-5,.body .columns td.small-5,.body .columns th.small-5,td.small-5,td.small-5 center,th.small-5,th.small-5 center {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  .body .column td.small-6,.body .column th.small-6,.body .columns td.small-6,.body .columns th.small-6,td.small-6,td.small-6 center,th.small-6,th.small-6 center {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .body .column td.small-7,.body .column th.small-7,.body .columns td.small-7,.body .columns th.small-7,td.small-7,td.small-7 center,th.small-7,th.small-7 center {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  .body .column td.small-8,.body .column th.small-8,.body .columns td.small-8,.body .columns th.small-8,td.small-8,td.small-8 center,th.small-8,th.small-8 center {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  .body .column td.small-9,.body .column th.small-9,.body .columns td.small-9,.body .columns th.small-9,td.small-9,td.small-9 center,th.small-9,th.small-9 center {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  .body .column td.small-10,.body .column th.small-10,.body .columns td.small-10,.body .columns th.small-10,td.small-10,td.small-10 center,th.small-10,th.small-10 center {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  .body .column td.small-11,.body .column th.small-11,.body .columns td.small-11,.body .columns th.small-11,td.small-11,td.small-11 center,th.small-11,th.small-11 center {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  table.menu td,table.menu th,td.small-12,th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  table.body td.small-offset-1,table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+    Margin-left: 8.33333% !important;
+  }
+  table.body td.small-offset-2,table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+    Margin-left: 16.66667% !important;
+  }
+  table.body td.small-offset-3,table.body th.small-offset-3 {
+    margin-left: 25% !important;
+    Margin-left: 25% !important;
+  }
+  table.body td.small-offset-4,table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+    Margin-left: 33.33333% !important;
+  }
+  table.body td.small-offset-5,table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+    Margin-left: 41.66667% !important;
+  }
+  table.body td.small-offset-6,table.body th.small-offset-6 {
+    margin-left: 50% !important;
+    Margin-left: 50% !important;
+  }
+  table.body td.small-offset-7,table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+    Margin-left: 58.33333% !important;
+  }
+  table.body td.small-offset-8,table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+    Margin-left: 66.66667% !important;
+  }
+  table.body td.small-offset-9,table.body th.small-offset-9 {
+    margin-left: 75% !important;
+    Margin-left: 75% !important;
+  }
+  table.body td.small-offset-10,table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+    Margin-left: 83.33333% !important;
+  }
+  table.body td.small-offset-11,table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+    Margin-left: 91.66667% !important;
+  }
+  table.body table.columns td.expander,table.body table.columns th.expander {
+    display: none !important;
+  }
+  table.body .right-text-pad,table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table.body .left-text-pad,table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table.menu td,table.menu th {
+    width: auto !important;
+  }
+  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+    display: block !important;
+  }
+  table.body img,table.menu[align=center] {
+    width: auto !important;
+  }
+  table.button.expand,table.menu {
+    width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width:580px) {
+  table.body {
+    background-color: #000 !important;
+  }
+  p.orange-text {
+    line-height: 25px !important;
+  }
+}
+</style>
+</head>
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">	
+    
+	<table class="body" style="-webkit-font-smoothing: antialiased; Margin: 0; background: #585858; border-collapse: collapse; border-spacing: 0; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+		<tr style="padding: 0; text-align: left; vertical-align: top;">
+			<td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+				<center data-parsed="" style="min-width: 600px; width: 100%;">
+					<!-- BEGIN TEMPLATE // -->
+					<!--[if (gte mso 9)|(IE)]>
+					<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+							<td align="center" valign="top" width="600" style="width:600px; aligh: center;">
+					<![endif]-->
+					<!-- header --> 
+						  <!--[if mso]>
+                            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+							<td align="center" valign="top" width="600" style="width:600px; aligh: center;">
+                            <![endif]-->
+                           
+						<table cellspacing="0" cellpadding="0" class="body float-center" align="center" style="-webkit-font-smoothing: antialiased; Margin: 0; background: #585858; background-color: #000; border-collapse: collapse; border-spacing: 0; color: #fff; float: none; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; max-width: 600px; padding: 0; text-align: left; vertical-align: top; width: 100%;" bgcolor="#000">                              
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td cellspacing="0" cellpadding="0" class="no-gutter" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-left: 0 !important; padding-right: 0 !important; text-align: left; vertical-align: top; word-wrap: break-word;">
+                           	            <img style="-ms-interpolation-mode: bicubic; clear: both; display: block; height: auto; max-width: 100%; outline: 0; text-decoration: none; width: 600px;" width="600px" src="https://job.morion.ua/wp-content/themes/job_theme/mail/img/image5.png" alt=""> 
+                           	        </td>
+                           	    </tr>
+                           	
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td cellspacing="10" cellpadding="10" class="small-12 large-12 columns first last" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-align: left; vertical-align: top; width: 590px; word-wrap: break-word;">
+                           	            <p style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 17px; font-weight: bold; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;"> ЗИДЕНА <i>(Уденафіл)</i> — препарат IV-покоління групи інгібіторів ФДЕ-5 типу, відмінністю якого є <span class="orange-span" style="color: #f79727; text-decoration: underline;"> високий профіль селективності</span><sup class="orange-sup" style="color: #f79727; font-size: 10px;">1</sup>.
+                                        </p>
+                           	        </td>
+                           	    </tr>
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td cellspacing="10" cellpadding="10" class="no-gutter small-12 large-12 columns first last" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 10px; padding-left: 0 !important; padding-right: 0 !important; text-align: left; vertical-align: top; width: 590px; word-wrap: break-word;">
+                           	            <p class="p-in-ob" style="Margin: 0; Margin-bottom: 10px; color: #f79727; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 16px; font-weight: 700; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; padding-top: 10px; text-align: center;"> Властивості молекули Уденафіла у препараті ЗИДЕНА забезпечують:</p>
+                           	        </td>
+                           	    </tr>
+                           	    
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; padding-top: 5px; text-align: left; vertical-align: top; word-wrap: break-word;">
+                                        <div style="border:2px solid #f79727; border-radius: 10px; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px;">
+                                           <table align="center" style="background-color: #000; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;" bgcolor="#000">
+                                                <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                                    <td align="center" height="41" valign="baseline" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 10px; padding-left: 15px; padding-right: 5px; text-align: left; vertical-align: middle; width: 40px; word-wrap: break-word;" class="small-3 large-1 columns first">
+                                                        <img width="41px" class="inl_b" src="https://job.morion.ua/wp-content/themes/job_theme/mail/img/li-1.png" alt="" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 10px; text-decoration: none; width: auto;">
+                                                    </td>
+                                                    <td height="41" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; margin-bottom: 0; padding: 0; padding-bottom: 10px; padding-left: 5px; padding-right: 10px; padding-top: 5px; text-align: left; vertical-align: middle; width: 540px; word-wrap: break-word;" align="center" valign="baseline" class="small-9 large-11 columns last">
+                                                        <p style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 16px; font-weight: 700; line-height: 19px; margin: 0; margin-bottom: 0; padding: 0; padding-left: 20px; padding-top: 5px; text-align: left; vertical-align: middle;" class="line-info-p"> Оптимальний період дії від 12 до 24-годин <sup>2</sup>.</p></td>
+                                                </tr>
+                                            </table>   
+                                        </div>                           	            
+                           	        </td>
+                           	    </tr>
+                           	    
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; padding-top: 5px; text-align: left; vertical-align: top; word-wrap: break-word;">
+                                       <table border="2" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;">
+                                           <tr style="border: 2px solid #f79727; border-radius: 10px; padding: 0; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; text-align: left; vertical-align: top;">
+                                               <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                                                  <table align="center" style="background-color: #000; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;" bgcolor="#000">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                                            <td align="center" height="41" valign="baseline" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 10px; padding-left: 15px; padding-right: 5px; text-align: left; vertical-align: middle; width: 40px; word-wrap: break-word;" class="small-12 large-1 columns first">
+                                                                <center data-parsed="" style="min-width: 20px; width: 100%;">
+                                                                    <img width="41px" class="inl_b float-center" src="https://job.morion.ua/wp-content/themes/job_theme/mail/img/li-1.png" alt="" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; padding: 5px 10px; text-align: center; text-decoration: none; width: auto;">
+                                                                </center>
+                                                            </td>
+                                                            <td height="41" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; margin-bottom: 0; padding: 0; padding-bottom: 10px; padding-left: 5px; padding-right: 10px; padding-top: 5px; text-align: left; vertical-align: middle; width: 540px; word-wrap: break-word;" align="center" valign="baseline" class="small-12 large-11 columns last">
+                                                                <p style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 16px; font-weight: 700; line-height: 19px; margin: 0; margin-bottom: 0; padding: 0; padding-left: 20px; padding-top: 5px; text-align: left; vertical-align: middle;" class="line-info-p"> Оптимальний період дії від 12 до 24-годин <sup>2</sup>.</p></td>
+                                                        </tr>
+                                                    </table>  
+                                               </td>
+                                           </tr>
+                                       </table>
+                                                                  	            
+                           	        </td>
+                           	    </tr>
+                           	    
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; padding-top: 5px; text-align: left; vertical-align: top; width: 100%; word-wrap: break-word;">
+                                       <table border="2" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                                           <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                               <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border: 2px solid #f79727; border-collapse: collapse !important; border-radius: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; text-align: left; vertical-align: top; word-wrap: break-word;">
+                                                  <table align="left" style="background-color: #000; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;" bgcolor="#000">
+                                                        <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                                            <td align="left" width="41" valign="baseline" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-bottom: 5px; padding-left: 15px; text-align: left; vertical-align: middle; width: 41px; word-wrap: break-word;">         
+                                                                    <img width="41px" class="inl_b" src="https://job.morion.ua/wp-content/themes/job_theme/mail/img/li-1.png" alt="" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; padding: 5px 10px; text-decoration: none; width: auto;">             
+                                                            </td>
+                                                            <td height="41" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; margin-bottom: 0; padding: 0; padding-left: 15px; padding-top: 5px; text-align: left; vertical-align: middle; word-wrap: break-word;" align="left" valign="baseline">
+                                                                <p style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 16px; font-weight: 700; line-height: 19px; margin: 0; margin-bottom: 0; padding: 0; padding-left: 20px; padding-top: 0; text-align: left; vertical-align: middle;" class="line-info-p"> Оптимальний період дії від 12 до 24-годин <sup>2</sup>.</p></td>
+                                                        </tr>
+                                                    </table>  
+                                               </td>
+                                           </tr>
+                                       </table>
+                                                                  	            
+                           	        </td>
+                           	    </tr>
+                           	    
+                           	    
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-left: 15px; padding-right: 15px; text-align: left; vertical-align: top; word-wrap: break-word;" align="center" valign="baseline">
+                           	            <p style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 15px; font-weight: bold; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; padding-left: 15px; text-align: left;"><br><b class="orange-b" style="color: #f79727; font-size: 15px;">ЗИДЕНА</b> — надійна альтернатива для лікування пацієнтів з розладами статевої функції, що потребують спонтанного відновлення еректильної функції  та бажають інтимних відносин без занепокоєння про тривалість дії препарату.</p>
+                           	        </td>
+                           	    </tr>
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td cellspacing="0" cellpadding="0" class="no-gutter" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-left: 0 !important; padding-right: 0 !important; text-align: left; vertical-align: top; word-wrap: break-word;">  
+                           	            <img style="-ms-interpolation-mode: bicubic; clear: both; display: block; height: auto; max-width: 100%; outline: 0; text-decoration: none; width: auto;" src="https://job.morion.ua/wp-content/themes/job_theme/mail/img/image2.png" alt="">
+                           	        </td>
+                           	    </tr>
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; padding-left: 15px; padding-right: 15px; text-align: left; vertical-align: top; word-wrap: break-word;" align="center" valign="baseline">
+                           	            <p class="p-footer" style="Margin: 0; Margin-bottom: 10px; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-style: italic; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">За більш детальною інформацією щодо препарату ЗИДЕНА  Ви можете звернутися до представника компанії ФІТОФАРМ, та на сайт компанії <a style="Margin: 0; color: #F79727; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-weight: bold; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;" href="">www.fitofarm.ua</a><br>  </p> 
+                           	        </td>
+                           	    </tr>
+                           	    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                           	        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                           	             <table align="center" style="background-color: #000; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;" bgcolor="#000">   
+                                            <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                                <td width="95" height="80" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 10px; padding-left: 15px; padding-right: 5px; text-align: left; vertical-align: top; width: 140px; word-wrap: break-word;" class="small-12 large-3 columns first"> 
+                                                    <center data-parsed="" style="min-width: 120px; width: 100%;">
+                                                        <img width="95" height="80" src="https://job.morion.ua/wp-content/themes/job_theme/mail/img/logo-footer.png" alt="" align="center" class="float-center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: auto;">
+                                                    </center>
+                                                </td>
+                                                <td align="center" valign="baseline" class="small-12 large-9 columns last" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #fff; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 10px; padding-left: 5px; padding-right: 10px; text-align: left; vertical-align: top; width: 440px; word-wrap: break-word;">
+                                                    <b style="color: #F79727; font-weight: bold;">З повагою до Вас та турботою про Ваших пацієнтів – ПРАТ «ФІТОФАРМ».</b><br>
+                                                    ПРАТ «Фітофарм», 02152, м. Київ<br>
+                                                    пр. Павла Тичини, 1В<br>
+                                                    ТОЦ "Сільвер Бріз", офіс А, 5 поверх<br>
+                                                    <a style="Margin: 0; color: #F79727; font-family: Arial,Helvetica Neue,Helvetica,Liberation Sans,sans-serif; font-weight: bold; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;" href="https://fitofarm.ua/" target="_blank">www.fitofarm.ua</a>
+                                                </td>
+                                            </tr> 
+                                        </table>
+                           	        </td>
+                           	    </tr>
+                           	   
+					    </table> 
+					    <!--[if mso]>
+                        </tr>
+                    </table>
+                    <![endif]-->    
+				</center>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+</html>
